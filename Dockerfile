@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM memcached:1.5.4-alpine
+FROM memcached:1.5.22-alpine
 
 COPY start.sh /usr/local/bin/
 ENTRYPOINT ["start.sh"]
